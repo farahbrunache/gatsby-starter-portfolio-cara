@@ -45,6 +45,12 @@ module.exports = {
         ],
       },
     },
+    {
+      resolve: `gatsby-plugin-intercom`,
+      options: {
+        appId: 'ni91hg85',
+      },
+    },
     /* Must be placed at the end */
     'gatsby-plugin-offline',
     'gatsby-plugin-netlify',
